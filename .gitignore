@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Checkpoints / weights
+*.pth
+*.pt
+*.ckpt
+*.bin
+checkpoints/
+best_*.pth
+last_*.pth
+
+# Data outputs
+data/audio/
+data/audio_eval_tts/
+data/audio_eval_openai/
+data/audio_img_train_*/
+data/audio_img_eval_*/
+data/image/
+data/voice/
+data/classes_*.csv
+data/torchvision/
+data/
+scripts/
+test.py
+
+
+# Logs / artifacts
+*.log
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+visual_byte_eval_only.py
+visual_byte_experiment.py
+visual_byte_train_final.py
+visual_byte_unfreeze_eval.py
+visual_byte_unfreeze_eval_v2.py
+visual_byte_unfreeze_train.py
+visual_byte_unfreeze_train_v2.py
+visual_byte_v2.py
+visual_byte_v3.py
