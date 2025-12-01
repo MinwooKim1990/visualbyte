@@ -29,9 +29,13 @@ data/voice/
 data/classes_*.csv
 data/torchvision/
 data/
-scripts/
 test.py
 
+# Scripts: keep only a minimal public interface
+scripts/*
+!scripts/collect_data.py
+!scripts/precompute_audio_images.py
+!scripts/precompute_audio_images_v2.py
 
 # Logs / artifacts
 *.log
@@ -65,3 +69,5 @@ generate_linkedin_gif.py
 linkedin.txt
 visualbyte_medium.md
 visualbyte_tistory.md
+generate_visualbyte_context.py
+generate_linkedin_gif_fixed.py
